@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+img {
+  border: 3px solid black;
+}
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+.buttons button {
+  width: 170px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: #0b57d0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+}
+.buttons button:hover {
+  cursor: pointer;
+  background-color: #0949af;
+}
+span {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
